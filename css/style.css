@@ -1,3 +1,27 @@
 *{margin:0;
   padding: 0;
   box-sizing: border-box;}
+
+.contenitore-body{width: 80%;
+                  margin: auto;
+                  font-family: sans-serif;
+                  }
+
+.header{margin-bottom: 20px;}
+
+.brend img{width: 10%;
+            padding-bottom: 25px;
+            border-right: 1px solid lightgrey;}
+
+nav ul{ list-style: none;
+        margin-left:-15px;}
+
+nav ul li{ display:inline-block;}
+
+nav ul li a{ padding: 20px 15px;
+            text-decoration: none;
+            color:grey}
+
+nav ul li a:hover{ color:white;
+                   background-color: lightslategrey;
+                   border-radius: 8px;}
