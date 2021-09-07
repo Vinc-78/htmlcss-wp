@@ -7,11 +7,15 @@
                   font-family: sans-serif;
                   }
 
+/* Setto header e logo  */
+
 .header{margin-bottom: 20px;}
 
 .brend img{width: 10%;
            padding-bottom: 25px;
             }
+
+/* realizzo la barra dei nav con un lista stilizzata */
 
 nav ul{ list-style: none;
         margin-left:-5px;}
@@ -23,25 +27,37 @@ nav ul li a{ padding: 15px 5px;
             color:grey;
             font-size: 14px;}
 
+/* dò uno stile al passaggio del mouse sul linl */
+
 nav ul li a:hover{ color:white;
                    background-color: lightslategrey;
                    border-radius: 8px;
                    }
 
+/* Inizio a lavorare al main in particolare al hero */
+
 .hero{margin-top: 20px;
       width: 100%;
       height: 450px;}
+
+      /* ********************************* */
+/* Realizzo una classe overlay da riutilizzare */
 
 .content-overlay {position: relative;            
                   border-radius: 20px;
                   overflow: hidden;
                  }
 
+/* Setto l'immagine del hero */
+
 .hero img { width: 100%;
             height: 100%;
             object-fit: cover;
             
             }
+/* ********************************* */
+/* Setto la classe overlay da riutilizzare */
+
 .overlay{ width: 100%;
           height: 100%;
           background: rgba(128, 128, 128, 0.3);
@@ -49,5 +65,16 @@ nav ul li a:hover{ color:white;
           top: 0;
           left: 0;
           z-index: 1;
+          
  }
+
+ /* Inizio a settare il title del hero */
+
+ .hero-title{ color:white;
+              font-weight: inherit;
+              width: 50%;
+              position: absolute;
+              bottom: 16%;
+              left:5%; 
+              z-index: 2;}
 
