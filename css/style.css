@@ -78,3 +78,24 @@ nav ul li a:hover{ color:white;
               left:5%; 
               z-index: 2;}
 
+.contenuto-header{margin: 30px 0;}
+
+.contenuto-header p{color: grey;}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .col {
+    float: left;
+    background-color: #abcfe7;
+    width: 25%;
+    height: 400px;
+    border: 1px solid red;
+  }
+  
+  .col-center {
+    width: calc(50% - 40px);
+    margin: 0 20px;
