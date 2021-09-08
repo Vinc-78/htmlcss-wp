@@ -47,6 +47,7 @@ nav ul li a:hover{ color:white;
                   border-radius: 20px;
                   overflow: hidden;
                   display: inline-block;
+                  width: 100%;
                  }
 
 /* Setto l'immagine del hero */
@@ -105,17 +106,13 @@ nav ul li a:hover{ color:white;
     margin: 0 20px;
   }
 
-/* Setto le dimensioni per ogni singola immagine essendo di dimensioni diverse */
-.col img { width: 100%;
-              height: 100%;
-              object-fit: cover;}
+/* Setto le dimensioni per ogni singola immagine  */
 
-.col-center img{width: 90%;
-                object-fit: cover;}
+.col>.content-overlay>img{ height: 250px;
+                           object-fit: cover;
+                           width: 100%;
+                           padding-bottom: 20px; }
 
-.col-destra img { width: 165%;
-                  height: 160%;
-                  object-fit:contain;}
 
 /* Set titolo e articolo */
 .row .col .row-titolo{ padding: 20px 0;
